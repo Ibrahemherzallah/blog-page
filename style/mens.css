@@ -1,0 +1,111 @@
+.mensText {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: bolder;
+}
+
+
+.mensCardImg {
+  opacity: 0.9;
+  transition:  .5s;
+  height: 350px;
+  width: 250px;
+}
+
+
+.mensPlyersCard {
+  height: 500px;
+  margin: 60px;
+  box-shadow:  5px 5px 20px black;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
+.mensPlayersContainer {
+  justify-content: center;
+  display: flex;
+}
+
+
+.cardBody {
+  height: 70px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom:  150px;
+  color: #fff;
+  transition: 1s;
+}
+
+
+.cardTitle {
+  transition:.8s;
+  margin: 10px;
+  font-size: 40px;
+}
+
+
+.cardDesWithLink {
+  display: flex;
+}
+
+
+.cardDescription {
+  font-size: 15px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition:1.2s;
+}
+
+
+.cardsLink{
+  visibility: hidden;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+
+.mensPlyersCard:hover {
+  cursor: pointer;
+}
+
+
+.mensPlyersCard:hover .cardBody {
+  height: 150px;
+  bottom: 90px;
+  opacity: 0.5;
+  width: 200px;
+}
+
+
+.mensPlyersCard:hover .cardDescription {
+  opacity: 1;
+  visibility: visible;
+  font-size: 13px;
+}
+
+
+.mensPlyersCard:active .mensCardImg {
+  opacity: 1;
+}
+
+
+.mensPlyersCard:hover .mensCardImg {
+  transform: scale(1.1) rotate(-0.5deg);
+}
+
+
+.mensPlyersCard:hover .cardTitle {
+  font-size: 15px;
+  transform: scale(1.1);
+}
+
+
+.mensPlyersCard:hover .cardsLink {
+  visibility: visible;
+  transform: scale(1.1);
+}

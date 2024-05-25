@@ -1,0 +1,86 @@
+.messiName {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+
+.mainPageDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+}
+
+
+.messiParagraph{
+  color: #fff;
+  font-size: 20px;
+  margin: 1%;
+}
+
+
+.messiImg {
+  width: 250px;
+  height: 350px;
+}
+
+
+.messiCard {
+  background-color:#fff;
+}
+
+
+.personalInfo {
+  margin: 5px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+
+.infoDiv {
+  margin-left: 5%;
+  display: grid;
+  align-items: center;
+}
+
+
+h5 {
+  margin-top: 10px;
+  display: flex;
+}
+
+
+em {
+  margin-left: 10px;
+  font-weight:150;
+}
+
+
+a{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+
+.paragraph {
+  display: flex;
+}
+
+
+.fab {
+  color: #fff;
+}
+
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.socialMediaLinks {
+  list-style-type: none;
+  font-size: 50px;
+}

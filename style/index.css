@@ -1,0 +1,158 @@
+.navBar {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+
+.barcelonaImg {
+  margin-left: 50px;
+  width: 80px;
+  height: 40px;
+}
+
+
+.fegureBarcelonaImg {
+  display: flex;
+}
+
+
+nav li {
+  margin-left: 25px;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: rgb(173, 170, 170);
+}
+
+
+.fa-search {
+  color: rgb(173, 170, 170);
+}
+
+
+.fa-search:hover {
+  cursor: pointer;
+  color: rgb(121, 123, 125);
+}
+
+
+.serchDiv {
+  margin-left: 35%;
+  display: flex;
+  align-items: center;
+}
+
+
+.serchDiv input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+
+.serchDiv input:focus {
+  outline: none;
+}
+
+
+nav li a:hover {
+  color: rgb(83, 14, 147);
+}
+
+
+.barcelonaImgDescription {
+  color: rgb(173, 170, 170);
+}
+
+
+.titleSpan {
+  color: red;
+}
+
+
+.mainTextDiv {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+
+.mainText {
+  color: #fff;
+  font-weight: bolder;
+}
+
+
+.MainTextSpan {
+  color: red;
+}
+
+
+.barcaParagraphSpan {
+  color: red;
+}
+
+
+.barcaParagraph {
+  font-size: small;
+  color: rgb(173, 170, 170);
+}
+
+
+.barcaTicketsText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+
+.cardImg {
+  border-radius: 50px;
+  width: 220px;
+  height: 270px;
+}
+
+
+.cardImg:hover {
+  cursor: pointer;
+}
+
+
+.card {
+  box-shadow: 0 14px 18px rgba(224, 223, 223, 0.1);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.card:active {
+  opacity: 1;
+}
+
+
+.cardsContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 220px;
+  justify-content: center;
+}
+
+
+.cardsTitle {
+  color:#fff;
+  text-wrap: nowrap;
+}
