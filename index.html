@@ -10,34 +10,34 @@
 
 </head>
 <body>
-  <header class="header">
-    <nav class="navBar">
-      <figure class="fegureBarcelonaImg">
+  <header class="headerIndexPage">
+    <nav class="navBarIndex">
+      <figure id="fegureBarcelonaImg" class="fegureBarcelonaImg">
         <img class="barcelonaImg" src="./static/images/barcelona-logo.png" alt="barcelona-icon">
         <figcaption class="barcelonaImgDescription">
           VISCA <span class="titleSpan">EL</span><br> BARCA
         </figcaption>
       </figure>
-      <li><a href="">History</a></li>
-      <li><a href="">Players</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Contact</a></li>
+      <li id="history"><a href="">History</a></li>
+      <li id="plyers"><a href="">Players</a></li>
+      <li id="about"><a href="">About</a></li>
+      <li id="contact"><a href="">Contact</a></li>
 
-      <div class="serchDiv">
+      <div id="searchDiv" class="serchDiv">
         <input type="text" placeholder="Search Players...">
         <i class="fas fa-search"></i>  
     </nav>
   </header>
-  <div class="mainTextDiv">
-    <h1 class="mainText">
+  <div id="mainText" class="mainTextDiv">
+    <h1 id="mainText" class="mainText">
       All news about the team, ticket sales, member services,<br> supporters club services and information <br>about <span class="MainTextSpan">Barça</span>   and the Club.
     </h1>
-    <p class="barcaParagraph">
+    <p id="barcaParagraph" class="barcaParagraph">
       Founded in 1899 by a group of Swiss, Catalan, German, and English footballers<br> led by Joan Gamper, the club has become a symbol of Catalan culture and<br> Catalanism, hence the motto  <span class="barcaParagraphSpan">"Més que un club" </span> . Unlike many other <br>football clubs, the supporters own and operate Barcelona.
     </p>
   </div>
   <h2 class="barcaTicketsText">Barça Tickets</h2>
-  <div class="cardsContainer">  
+  <div id="cardsContainer" class="cardsContainer">  
     <div class="card">
       <a href="./mens/mens.html"><img class="cardImg" src="./static/images/lew.jpg" alt="Card image cap"></a>
       <h5 class="cardsTitle">MENS FOOTBALL</h5>
@@ -51,5 +51,10 @@
       <h5 class="cardsTitle">WOMENS FOOTBALL</h5>
     </div>
   </div>
+  <footer class="homePageFooter">
+      <li class="socialMediaLinks"><a  href="https://www.facebook.com/fcbarcelona" target="_blank"><i class="fab fa-facebook-f socialMediaIndex"></i></a></li>
+      <li class="socialMediaLinks"><a  href="https://www.instagram.com/fcbarcelona" target="_blank"><i class="fab fa-instagram socialMediaIndex"></i></a></li>
+      <li class="socialMediaLinks"><a  href="https://x.com/fcbarcelona" target="_blank"><i class="fab fa-twitter socialMediaIndex"></i></a></li> 
+  </footer>
 </body>
 </html>

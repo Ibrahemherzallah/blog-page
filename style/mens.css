@@ -1,8 +1,61 @@
+@media only screen and (max-device-width: 1100px) {
+  #mensPlayersContainer {
+    display: block;
+  }
+}
+
+
 .mensText {
   display: flex;
   justify-content: center;
   color: #fff;
   font-weight: bolder;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+}
+
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  position: relative;
+}
+
+
+.navBar i, .navBar p {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.navBar i {
+  margin-right: 8px;
+}
+
+
+.navBar .back {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.navBar .mensText {
+  flex: 1;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 
@@ -108,4 +161,9 @@
 .mensPlyersCard:hover .cardsLink {
   visibility: visible;
   transform: scale(1.1);
+}
+
+
+.fa-arrow-left {
+  color: #fff;
 }

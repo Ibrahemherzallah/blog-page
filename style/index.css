@@ -1,4 +1,53 @@
-.navBar {
+/* Viewports between 320px and 480px wide */
+@media only screen and (min-device-width: 600px) and (max-device-width: 1480px) {
+  #searchDiv {
+    /* display: none; */
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-device-width: 600px) {
+  #searchDiv {
+    display: none;
+  }
+  #mainText {
+    font-size: 15px;
+  }
+  #barcaParagraph {
+    font-size: 8px;
+  }
+  #mainTextDiv {
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-device-width: 550px) {
+  #contact {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 450px) {
+  #about {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 350px) {
+  #plyers {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 250px) {
+  #history {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 900px) {
+  #cardsContainer {
+    display: block;
+  }
+}
+
+
+.navBarIndex {
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -155,4 +204,46 @@ nav li a:hover {
 .cardsTitle {
   color:#fff;
   text-wrap: nowrap;
+}
+
+
+.homePageFooter {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.socialMediaIndex {
+  font-size: 30px;
+}
+
+
+.socialMediaLinks {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.socialMediaLinks a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.socialMediaIndex {
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.socialMediaIndex:hover {
+  background-color: #000;
+  color: #fff;
 }
