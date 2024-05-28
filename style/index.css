@@ -1,10 +1,10 @@
-/* Viewports between 320px and 480px wide */
 @media only screen and (min-device-width: 600px) and (max-device-width: 1480px) {
   #searchDiv {
-    /* display: none; */
     margin-left: 5%;
   }
 }
+
+
 @media only screen and (max-device-width: 600px) {
   #searchDiv {
     display: none;
@@ -19,30 +19,63 @@
     margin-left: 0%;
   }
 }
+
+
 @media only screen and (max-device-width: 550px) {
   #contact {
     display: none;
   }
 }
+
+
 @media only screen and (max-device-width: 450px) {
   #about {
     display: none;
   }
 }
+
+
 @media only screen and (max-device-width: 350px) {
   #plyers {
     display: none;
   }
 }
-@media only screen and (max-device-width: 250px) {
+
+
+@media only screen and (max-device-width: 300px) {
   #history {
     display: none;
   }
 }
 
+
+@media only screen and (min-device-width: 250px) and (max-device-width: 300px) {
+  #fegureBarcelonaImg {
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
 @media only screen and (max-device-width: 900px) {
   #cardsContainer {
     display: block;
+  }
+}
+
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 900px) {
+  #fegureBarcelonaImg {
+    margin-left: 0px;
+  }
+}
+
+
+@media only screen and (max-device-width: 600px) {
+  #mainTextDiv {
+    margin-left: 50px;
   }
 }
 
@@ -55,7 +88,6 @@
 
 
 .barcelonaImg {
-  margin-left: 50px;
   width: 80px;
   height: 40px;
 }
